@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobremesa</title>
+</head>
+
+<body>
+    <section>
+        <div class="cart">
+            <div class="comment">
+                Seu Carrinho( )
+            </div>
+            <div class="buy">
+
+                <p class="food" id="food01"><b></b></p>
+                <p class="quant" id="quant01"></p>
+                <p class="value" id="value01"></p>
+
+                <p class="food" id="food02"></p>
+                <p class="quant" id="quant02"></p>
+                <p class="value" id="value02"></p>
+
+                <p class="food" id="food03"></p>
+                <p class="quant" id="quant03"></p>
+                <p class="value" id="value03"></p>
+
+                <p class="food" id="food04"></p>
+                <p class="quant" id="quant04"></p>
+                <p class="value" id="value04"></p>
+
+                <p class="food" id="food05"></p>
+                <p class="quant" id="quant05"></p>
+                <p class="value" id="value05"></p>
+
+                <p class="food" id="food06"></p>
+                <p class="quant" id="quant06"></p>
+                <p class="value" id="value06"></p>
+
+                <p class="food" id="food07"></p>
+                <p class="quant" id="quant07"></p>
+                <p class="value" id="value07"></p>
+
+                <p class="food" id="food08"></p>
+                <p class="quant" id="quant08"></p>
+                <p class="value" id="value08"></p>
+
+                <p class="food" id="food09"></p>
+                <p class="quant" id="quant09"></p>
+                <p class="value" id="value09"></p>
+
+            </div>
+            <hr>
+            <div class="final">
+                <div class="conf">
+                    Confirmar Pedido
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+
+            <div class="comment03">
+                Sobremesas
+            </div>
+            <br>
+
+            <div class="allimgs">
+                <div class="imgs01">
+                    <div class="bor01">
+                        <img src="images/03-Mousse-de-chocolate.jpg" class="img01">
+                        <p id="dif">Bolo de Chocolate</p>
+                        <p id="dif">R$ 3,00</p>
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="bolo" onclick="comprar01()">
+                        </div>
+                        
+                        <div class="format01">
+                            <input type="button" class="menos" value="-" onclick="sub01()"> 
+                            <p class="num01" id="num01">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad01()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel01" id="cancelarbolo" onclick="cancelar01()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/batatas.jpg" class="img02">
+                        <p id="dif">Batata Frita</p>
+                        <p id="dif">R$ 5,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="batata" onclick="comprar02()">
+                        </div>
+                        
+                        <div class="format02">
+                            <input type="button" class="menos" value="-" onclick="sub02()"> 
+                            <p class="num02" id="num02">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad02()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel02" id="cancelarbatata" onclick="cancelar02()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/churros.webp" class="img03">
+                        <p id="dif">Churros</p>
+                        <p id="dif">R$ 10,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="churros" onclick="comprar03()">
+                        </div>
+                        
+                        <div class="format03">
+                            <input type="button" class="menos" value="-" onclick="sub03()"> 
+                            <p class="num03" id="num03">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad03()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel03" id="cancelarchurros" onclick="cancelar03()">
+                        </div>
+                    </div>
+                </div>
+                <div class="imgs02">
+                    <div class="bor01">
+                        <img src="images/maracuja.webp" class="img04">
+                        <p id="dif">Maracuja</p>
+                        <p id="dif">R$ 5,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="maracuja" onclick="comprar04()">
+                        </div>
+                        
+                        <div class="format04">
+                            <input type="button" class="menos" value="-" onclick="sub04()"> 
+                            <p class="num04" id="num04">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad04()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel04" id="cancelarmaracuja" onclick="cancelar04()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/morango.webp" class="img05">
+                        <p id="dif">Morango</p>
+                        <p id="dif">R$ 50,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="morango" onclick="comprar05()">
+                        </div>
+                        
+                        <div class="format05">
+                            <input type="button" class="menos" value="-" onclick="sub05()"> 
+                            <p class="num05" id="num05">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad05()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel05" id="cancelarmorango" onclick="cancelar05()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/sorvete.webp" class="img06">
+                        <p id="dif">sorvetes tropicais</p>
+                        <p id="dif">R$ 1,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="sorvete" onclick="comprar06()">
+                        </div>
+                        
+                        <div class="format06">
+                            <input type="button" class="menos" value="-" onclick="sub06()"> 
+                            <p class="num06" id="num06">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad06()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel06" id="cancelarsorvete" onclick="cancelar06()">
+                        </div>
+                    </div>
+                </div>
+                <div class="imgs03">
+                    <div class="bor01">
+                        <img src="images/sorvete_de_morango.webp" class="img07">
+                        <p id="dif">Napolitano</p>
+                        <p id="dif">R$ 20,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="napolitano" onclick="comprar07()">
+                        </div>
+                        
+                        <div class="format07">
+                            <input type="button" class="menos" value="-" onclick="sub07()"> 
+                            <p class="num07" id="num07">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad07()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel07" id="cancelarnapolitano" onclick="cancelar07()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/torta.jpg" class="img08">
+                        <p id="dif">Torta</p>
+                        <p id="dif">R$ 15,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="torta" onclick="comprar08()">
+                        </div>
+                        
+                        <div class="format08">
+                            <input type="button" class="menos" value="-" onclick="sub08()"> 
+                            <p class="num08" id="num08">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad08()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel08" id="cancelartorta" onclick="cancelar08()">
+                        </div>
+                    </div>
+                    <div class="bor01">
+                        <img src="images/wuffle.webp" class="img09">
+                        <p id="dif">Wuffle</p>
+                        <p id="dif">R$ 100,00</p>
+
+                        <div class="tobuy01">
+                            <input type="button" value="Comprar" class="bolo" id="wuffle" onclick="comprar09()">
+                        </div>
+                        
+                        <div class="format09">
+                            <input type="button" class="menos" value="-" onclick="sub09()"> 
+                            <p class="num09" id="num09">1</p>
+                            <input type="button" class="mais" value="+" onclick="ad09()">
+                        </div>
+                        <div class="cancel">
+                            <input type="button" value="Cancelar" class="butcancel09" id="cancelarwuffle" onclick="cancelar09()">
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

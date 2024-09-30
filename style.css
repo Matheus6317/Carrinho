@@ -1,0 +1,466 @@
+body{
+    background-color: whitesmoke;
+}
+
+.cart{
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    margin-left: 70%;
+    border-radius: 15px;
+    border-color: white;
+    box-shadow: 10px 10px 15px;
+}
+.comment{
+    font-size: 1.6em;
+    color: tomato;   
+}
+.food{
+    font-size: 20px;
+}
+.quant{
+    color: tomato;
+}
+.value{
+    color: hwb(0 0% 100% / 0.692);
+    transform: translate(30px, -32px);
+}
+.umm{
+    display: flex;
+    gap: 180px;
+}
+.comment02{
+    font-size: 12px;
+}
+.conf{
+   text-align: center;
+   transform: translate(0px, 60px);
+   border: 1px solid;
+   height: 25px;
+   background-color: hsl(9, 100%, 64%);
+   color: white;
+   border: none;
+   border-radius: 50px;
+}
+.conf:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+
+
+
+
+.img01{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img02{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto; 
+}
+.img03{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img04{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img05{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img06{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img07{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img08{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.img09{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: -13%;
+    display: grid;
+}
+
+.imgs01{
+    display: flex;
+    gap: 50px;
+}
+.imgs02{
+    display: flex;
+    gap: 50px;
+}
+.imgs03{
+    display: flex;
+    gap: 50px;
+}
+.comment03{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+}
+.bor01{
+    border: 2px solid;
+    border-bottom-right-radius: 20px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 10px 10px 15px;
+}
+.bor01:hover{
+    border-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+#dif{
+    color: tomato;
+}
+
+.tobuy01{
+    text-align: center;
+}
+.bolo{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+}
+.bolo:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+
+.menos{
+    border-radius: 30px;
+    height: 20px;
+    background-color: tomato;
+    color: white;
+    border-color: white;
+}
+.menos:hover{
+    cursor: pointer;
+}
+.mais{
+    border-radius: 30px;
+    height: 20px;
+    background-color: tomato;
+    color: white;
+    border-color: white;
+}
+.mais:hover{
+    cursor: pointer;
+}
+.p1{
+    color: white;    
+}
+.cancel{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.format01{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel01{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel01:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num01{
+    color: white;    
+}
+
+.format02{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel02{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel02:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num02{
+    color: white;    
+}
+
+.format03{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel03{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel03:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num03{
+    color: white;    
+}
+
+.format04{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel04{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel04:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num04{
+    color: white;    
+}
+
+.format05{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel05{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel05:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num05{
+    color: white;    
+}
+
+.format06{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel06{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel06:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num06{
+    color: white;    
+}
+
+.format07{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel07{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel07:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num07{
+    color: white;    
+}
+
+.format08{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel08{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel08:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num08{
+    color: white;    
+}
+
+.format09{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid;
+    align-items: center;
+    height: 25px;
+    border-radius: 30px;
+    background-color: tomato;
+    border-color: white;
+    opacity: 0;
+}
+.butcancel09{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    border: none;
+    opacity: 0;
+}
+.butcancel09:hover{
+    background-color: hsl(9, 100%, 70%);
+    cursor: pointer;
+}
+.num09{
+    color: white;    
+}
